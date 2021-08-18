@@ -1,7 +1,7 @@
-const ValidadorRG = require('./ValidadorRG')
-const GeradorRG = require('./GeradorRG')
+const ValidadorRG = require("./src/ValidadorRG");
+const GeradorRG = require("./src/GeradorRG");
 
-const rgGerado = new GeradorRG().gerarRg()
-const valido = new  ValidadorRG(rgGerado).valida()
+const rgGerado = new GeradorRG().gerarRg();
+const valido = new ValidadorRG(rgGerado).valida();
 
-console.log(`Seu RG gerado: ${rgGerado}. Valido: ${valido}`)
+console.log(`Seu RG gerado: ${rgGerado}. Valido: ${valido}`);
