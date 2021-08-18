@@ -1,4 +1,4 @@
-const regExp = /\.|-/gi;
+const regExp = /\.|-|''/gi;
 
 const rg = '55.204.273-x'
 
