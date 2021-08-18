@@ -4,7 +4,8 @@ class ValidaRG {
     }
 
     limpaRG(rgEnviado){
-        return rgEnviado.replace(/\D+/g, '')
+        let looking = rgEnviado.match(/\.|-/)
+        return rgEnviado.replace(looking, '')
     }
 
     valida() {
