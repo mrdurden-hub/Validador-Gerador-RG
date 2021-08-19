@@ -1,17 +1,17 @@
 {
-  "name": "validadorRg",
+  "name": "validador-gerador-rg",
   "version": "1.0.0",
-  "description": "",
+  "description": "Classes úteis para validar e gerar RG (documento de Registro Geral) válido",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrdurden-hub/Validador-Gerador-RG.git"
+    "url": "https://github.com/mrdurden-hub/Validador-Gerador-RG.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["rg","RG","validador de rg","validador","valida","registro geral"],
+  "author": "Mr.durden",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mrdurden-hub/Validador-Gerador-RG/issues"
