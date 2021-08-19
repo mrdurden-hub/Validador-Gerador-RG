@@ -21,5 +21,5 @@
   - GeradorRG: Essa classe irá gerar um novo RG através do método gerarRg().
 
   ```js
- const cpf = new GeraCPF().gerarRg()
+ const rg = new GeradorRG().gerarRg()
  ```
